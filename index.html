@@ -25,10 +25,7 @@
       text-align:center;
     }
 
-    img {
-      height:auto;
-      width:auto;
-    }
+
     .text {
       color: #696C6F;
       margin-top: 1%;
@@ -82,7 +79,14 @@
   </div>
 -->
 
-  <img src="img/logo_branco.png">
+  <img
+    sizes="(max-width: 544px) 100vw, 544px"
+    srcset="img/
+logo_branco_aijbin_c_scale,w_200.png 200w,
+img/logo_branco_aijbin_c_scale,w_544.png 544w"
+    src="img/logo_branco_aijbin_c_scale,w_544.png"
+    alt="">
+
   <div class="text">
     e-mail: <a  href="mailto:contato@craftcode.com.br">contato@craftcode.com.br</a>
   </div>
