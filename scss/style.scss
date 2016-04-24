@@ -259,9 +259,7 @@ p.tagline {
   min-height:145px;
   padding-bottom:40px;
 }
-.logo {
 
-}
 .small-hr {
   background: $primery_color none repeat scroll 0 0;
   display: block;
@@ -1189,9 +1187,6 @@ p.tagline {
       font-size:13px;
     }
   }
-  .logo img{
-    width:50px;
-  }
 }
 @media only screen and (max-width: 973px) {
   .copyright .social-icons {
@@ -1278,9 +1273,6 @@ p.tagline {
     font-size:12px;
     padding-top:15px;
     padding-bottom:20px;
-  }
-  .logo img {
-    width: auto;
   }
 
   .page {
